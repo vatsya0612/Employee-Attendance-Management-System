@@ -5,6 +5,9 @@ A full-stack MERN application for managing employee attendance, leave requests, 
 ![Stack](https://img.shields.io/badge/Stack-MERN-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+![alt text](image.png)
+
+![alt text](image-1.png)
 ---
 
 ## Features
