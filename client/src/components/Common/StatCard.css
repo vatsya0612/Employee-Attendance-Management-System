@@ -1,0 +1,68 @@
+.stat-card {
+  background-color: var(--card);
+  border-radius: var(--radius);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-icon-primary {
+  background-color: #EFF6FF;
+  color: var(--primary);
+}
+
+.stat-icon-success {
+  background-color: #F0FDF4;
+  color: var(--success);
+}
+
+.stat-icon-warning {
+  background-color: #FFFBEB;
+  color: var(--warning);
+}
+
+.stat-icon-danger {
+  background-color: #FEF2F2;
+  color: var(--danger);
+}
+
+.stat-icon-info {
+  background-color: #EFF6FF;
+  color: var(--info);
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-title {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  color: var(--text);
+  font-size: 24px;
+  font-weight: 700;
+}

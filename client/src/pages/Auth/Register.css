@@ -1,0 +1,23 @@
+.register-card {
+  max-width: 600px;
+}
+
+.register-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.register-form .w-full {
+  grid-column: 1 / -1;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+@media (max-width: 640px) {
+  .register-form {
+    grid-template-columns: 1fr;
+  }
+}
