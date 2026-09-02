@@ -51,13 +51,12 @@
 }
 
 .sidebar-nav a.active {
-  background-color: #f1f5f9; /* Slate 100 */
-  color: var(--primary);
-  font-weight: 600;
+  background-color: var(--primary-light);
+  color: white;
 }
 
 .sidebar-nav a.active:hover {
-  background-color: #e2e8f0;
+  background-color: var(--primary);
 }
 
 .sidebar-footer {

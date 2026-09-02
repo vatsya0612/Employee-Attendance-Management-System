@@ -22,7 +22,7 @@
 }
 
 .btn-primary:hover:not(:disabled) {
-  background-color: var(--primary-light);
+  background-color: var(--primary-dark);
   transform: translateY(-1px);
 }
 
